@@ -1,6 +1,6 @@
 import asyncio
 
-from example import HelloWorld
+from example_workflow import HelloWorld
 from temporalio.client import Client
 
 

@@ -3,7 +3,7 @@ import asyncio
 from temporalio.client import Client
 from temporalio.worker import Worker
 
-from example import HelloWorld
+from example_workflow import HelloWorld
 
 
 async def main():
