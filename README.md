@@ -52,7 +52,11 @@ $ python3 app.py
 
 Example output:
 ```sh
-Result: Hello World!
+num: 4
+
+USD buy: 3.9926
+USD sell: 4.0732
+2024-12-09
 ```
 
 Navigate to Temporal Web UI at http://localhost:8233 to see Temporal Workflows:

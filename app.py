@@ -12,7 +12,7 @@ async def main():
         task_queue="example-tasks",
     )
     result = await handle.result()
-    print(f"Result: {result}")
+    print(result)
 
 
 if __name__ == "__main__":
