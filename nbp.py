@@ -5,7 +5,7 @@ with workflow.unsafe.imports_passed_through():
     import httpx
 
 
-async def get_rate() -> str:
+async def get_usd_rate() -> str:
     url = "http://api.nbp.pl/api/exchangerates/rates/c/usd/"
     async with httpx.AsyncClient() as client:
         r = await client.get(url)

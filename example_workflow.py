@@ -3,7 +3,7 @@ from datetime import timedelta
 from temporalio import activity
 from temporalio import workflow
 
-from nbp import get_rate
+from nbp import get_usd_rate
 
 
 @workflow.defn
@@ -18,5 +18,5 @@ class HelloWorld:
 
 @activity.defn
 async def nbp() -> str:
-    text = await get_rate()
+    text = await get_usd_rate()
     return text
