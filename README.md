@@ -1,4 +1,4 @@
-# Temporal: Bulletproof Workflows
+# Falling in Love with Temporal: Bulletproof Workflows
 
 ## Step 1/4: Installation
 ### Install Temporal CLI
