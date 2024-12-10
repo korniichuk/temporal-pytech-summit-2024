@@ -11,7 +11,7 @@ async def get_usd_rate() -> str:
         r = await client.get(url)
         if r.status_code >= 400:
             raise ApplicationError(
-                f"HTTP Error {r.status}",
+                f"HTTP Error {r.status_code}",
                 non_retryable=r.status_code < 500,  # retry 5xx but not 4xx
             )
         data = r.json()
