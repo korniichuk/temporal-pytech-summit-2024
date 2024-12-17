@@ -75,7 +75,7 @@ Click on `example-workflow` Workflow ID to see Temporal Workflow History and Exe
 ![temporal-_-workflow_history.png](img/temporal-_-workflow_history.png "Temporal Workflow History")
 
 ## Option 2: Demo with GitPod (browser-based environment)
-Not everyone is willing to use a local environment and install software for a demo. That is why you can use the GitPod service with a browser-based exercise environment as alternative.
+Not everyone is willing to use a local environment and install software for a demo. That is why you can use the GitPod service with a browser-based environment as alternative.
 
 ### Step 1/3: Clone GitHub repo and install [HTTPX](https://github.com/encode/httpx/) Python lib
 Navigate to https://gitpod.io/#https://github.com/temporalio/edu-101-python-code to launch browser-based environment.
