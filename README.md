@@ -3,6 +3,7 @@
 ## Option 1: Demo with local development environment
 ### Step 1/4: Installation
 **Install Temporal CLI**
+
 To install the Temporal CLI, download the version for your architecture:
 - [Download Temporal CLI for Linux amd64](https://temporal.download/cli/archive/latest?platform=linux&arch=amd64)
 - [Download Temporal CLI for Linux arm64](https://temporal.download/cli/archive/latest?platform=linux&arch=arm64)
@@ -21,6 +22,7 @@ $ mv temporal /usr/local/bin/
 ```
 
 **Install Temporal SDK**
+
 Install the Temporal Python SDK:
 ```sh
 $ pip install temporalio
@@ -75,7 +77,7 @@ Click on `example-workflow` Workflow ID to see Temporal Workflow History and Exe
 ## Option 2: Demo with GitPod (browser-based environment)
 Not everyone is willing to use a local environment and install software for a demo. That is why you can use the GitPod service with a browser-based exercise environment as alternative.
 
-### Step 1/3: Clone GitHub repo and install HTTPX
+### Step 1/3: Clone GitHub repo and install [HTTPX](https://github.com/encode/httpx/) Python lib
 Navigate to https://gitpod.io/#https://github.com/temporalio/edu-101-python-code to launch browser-based environment.
 
 In the **first** terminal window execute the folowing comand:
