@@ -117,14 +117,12 @@ USD sell: 4.1064
 
 ![gitpod-_-terminal2.png](img/gitpod-_-terminal2.png "GitPod Terminal window")
 
-Navigate to Temporal Web UI to see Temporal Workflows:
-
+Navigate to Temporal Web UI to see Temporal Workflows:  
 ![gitpod-_-open_in_browser.png](img/gitpod-_-open_in_browser.png "GitPod Open in browser")
 
 ![gitpod-_-temporal_workflows.png](img/gitpod-_-temporal_workflows.png "GitPod Temporal Workflows")
 
 Click on `example-workflow` Workflow ID to see Temporal Workflow History and Execution Result:
-
 ![gitpod-_-temporal_workflow_history.png](img/gitpod-_-temporal_workflow_history.png "GitPod Temporal Workflow History")
 
 ## Sources
