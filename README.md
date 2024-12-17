@@ -119,7 +119,7 @@ Navigate to Temporal Web UI to see Temporal Workflows:
 
 ![gitpod-_-open_in_browser.png](img/gitpod-_-open_in_browser.png "GitPod Open in browser")
 
-![gitpod-_-temporal_workflows.png](img/gitpod-_-temporal_workflows "GitPod Temporal Workflows")
+![gitpod-_-temporal_workflows.png](img/gitpod-_-temporal_workflows.png "GitPod Temporal Workflows")
 
 Click on `example-workflow` Workflow ID to see Temporal Workflow History and Execution Result:
 
