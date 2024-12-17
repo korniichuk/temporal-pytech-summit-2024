@@ -74,33 +74,33 @@ Navigate to Temporal Web UI at http://localhost:8233 to see Temporal Workflows:
 Click on `example-workflow` Workflow ID to see Temporal Workflow History and Execution Result:
 ![temporal-_-workflow_history.png](img/temporal-_-workflow_history.png "Temporal Workflow History")
 
-## Option 2: Demo with GitPod (browser-based environment)
-Not everyone is willing to use a local environment and install software for a demo. That is why you can use the GitPod service with a browser-based environment as alternative.
+## Option 2: Demo with Gitpod (browser-based environment)
+Not everyone is willing to use a local environment and install software for a demo. That is why you can use the Gitpod service with a browser-based environment as an alternative.
 
 ### Step 1/3: Clone GitHub repo and install [HTTPX](https://github.com/encode/httpx/) Python lib
-Navigate to https://gitpod.io/#https://github.com/temporalio/edu-101-python-code to launch browser-based environment.
+Navigate to https://gitpod.io/#https://github.com/temporalio/edu-101-python-code to launch a browser-based environment.
 
-In the **first** terminal window execute the folowing comand:
+In the **first** terminal window, execute the following command:
 ```sh
 $ cd ..
 $ git clone https://github.com/korniichuk/temporal-pytech-summit-2024.git
 $ cd temporal-pytech-summit-2024
 $ pip install httpx
 ```
-![gitpod-_-terminal1_0001.png](img/gitpod-_-terminal1_0001.png "GitPod Terminal window")
+![gitpod-_-terminal1_0001.png](img/gitpod-_-terminal1_0001.png "Gitpod Terminal window")
 
 ### Step 2/3: Execute Temporal Workflow
-In the **first** terminal window run the following command:
+In the **first** terminal window, run the following command:
 ```sh
 $ python3 worker.py
 ```
 
 Leave the Temporal Worker running.
 
-![gitpod-_-terminal1_0002.png](img/gitpod-_-terminal1_0002.png "GitPod Terminal window")
+![gitpod-_-terminal1_0002.png](img/gitpod-_-terminal1_0002.png "Gitpod Terminal window")
 
 ### Step 3/3: Execute Temporal Workflow
-In the **second** terminal window run the following command:
+In the **second** terminal window, run the following command:
 ```sh
 $ cd ../temporal-pytech-summit-2024
 $ python3 app.py
@@ -115,12 +115,12 @@ USD sell: 4.1064
 2024-12-17
 ```
 
-![gitpod-_-terminal2.png](img/gitpod-_-terminal2.png "GitPod Terminal window")
+![gitpod-_-terminal2.png](img/gitpod-_-terminal2.png "Gitpod Terminal window")
 
 Navigate to Temporal Web UI to see Temporal Workflows:  
-![gitpod-_-open_in_browser.png](img/gitpod-_-open_in_browser.png "GitPod Open in browser")
+![gitpod-_-open_in_browser.png](img/gitpod-_-open_in_browser.png "Gitpod Open in browser")
 
-![gitpod-_-temporal_workflows.png](img/gitpod-_-temporal_workflows.png "GitPod Temporal Workflows")
+![gitpod-_-temporal_workflows.png](img/gitpod-_-temporal_workflows.png "Gitpod Temporal Workflows")
 
 Click on `example-workflow` Workflow ID to see Temporal Workflow History and Execution Result:
 ![gitpod-_-temporal_workflow_history.png](img/gitpod-_-temporal_workflow_history.png "GitPod Temporal Workflow History")
